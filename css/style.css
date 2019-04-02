@@ -1,19 +1,19 @@
-#web_app{
-    height: 100vh;
-    background-image: url("../img/background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: right;
+.banner {
+  background-image: url('../img/vermillion_banner.jpg');
+  background-size: cover;
+  background-position: bottom center;
+  width: 100%;
+  padding: 20px;
 }
 
 /* mouse over link */
 a:hover {
-  color: darkseagreen;
+  color: black;
 }
 
 /* selected link */
 a:active {
-  color: blueviolet;
+  color: white;
 } 
 
 p.serif {
@@ -21,4 +21,40 @@ p.serif {
 }
 p.sansserif {
   font-family: Arial, Helvetica, sans-serif;
+}
+.family_selfie {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: auto;
+    border-radius: 5%;
+    border: 10px;
+    border-color: black;
+    border-style: solid;
+}
+.my_family {
+    padding: 20px
+}
+.button {
+    background-color: white;
+    border: 5px;
+    border-color: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+}
+h1 {
+  color: white;
+  font-size: 42px;
+  font-weight: 600;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  letter-spacing: 50px
+  
 }
