@@ -27,7 +27,7 @@ p.sansserif {
     margin: auto;
     width: 100%;
     height: auto;
-    border-radius: 5%;
+    border-radius: 2%;
     border: 10px;
     border-color: black;
     border-style: solid;
@@ -48,6 +48,7 @@ p.sansserif {
     margin-right: 20px;
     margin-bottom: 20px;
     border-style: solid;
+    border-radius: 2%;
 }
 h1 {
   color: white;
