@@ -8,7 +8,7 @@
 
 /* mouse over link */
 a:hover {
-  color: black;
+  color: r=41 g=171 b=226;
 }
 
 /* selected link */
@@ -27,8 +27,7 @@ p.sansserif {
     margin: auto;
     width: 100%;
     height: auto;
-    border-radius: 2%;
-    border: 10px;
+    border: 5px;
     border-color: black;
     border-style: solid;
 }
@@ -37,7 +36,7 @@ p.sansserif {
 }
 .button {
     background-color: white;
-    border: 5px;
+    border: 3px;
     border-color: black;
     color: white;
     padding: 15px 32px;
@@ -48,7 +47,6 @@ p.sansserif {
     margin-right: 20px;
     margin-bottom: 20px;
     border-style: solid;
-    border-radius: 2%;
 }
 h1 {
   color: white;
@@ -58,4 +56,28 @@ h1 {
   font-family: "Times New Roman", Times, serif;
   letter-spacing: 50px
   
+}
+#css_section1 {
+    height: 22vh;
+    background-color: antiquewhite;
+    margin: 5px;
+}
+
+#css_section1 div {
+    background-color: white;
+    border: 3px solid black;
+    display: block;
+    padding: 8px;
+    margin-left: 5px
+}
+
+
+#css_section1 {
+    display: flex;
+    margin: 80px
+    /*Enter properties for parent element and values here...*/
+}
+
+#css_section1 div{
+    /*Enter properties for children element and values here...*/
 }
